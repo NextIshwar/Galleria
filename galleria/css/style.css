@@ -1,0 +1,142 @@
+img {
+	border:none 0;
+	outline:none;
+}
+ul {
+	padding:0;
+	margin:0;
+}
+li {
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+
+
+/*********** MAIN **************/
+body {
+	color: #333;
+	background: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height:21px;
+	overflow-x:hidden !important;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: -30;
+	padding-left: 0;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: -30;
+	margin-left: 0;
+}
+html { font-size: 100%;
+}
+::selection{
+	background: #0066CC;
+	color: #fff;
+}
+::-moz-selection {
+	background: #0066CC;
+	color: #fff;
+}
+a,
+a:focus {
+	color:lightgrey ;
+	text-decoration:none !important;
+	outline:none;
+}
+a:hover { color: #0066CC;
+}
+
+
+img {max-width:100%;
+}
+.cover {
+	background-position:50% 0;
+	background-attachment:fixed;
+	background-size:cover;
+	background-repeat:no-repeat;
+	color:#fff;
+}
+#preloader {
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	height:100%;
+	background-color:#fff; /* change if the mask should have another color then white */
+	z-index:9900; /* makes sure it stays on top */
+}
+
+/*---------------------------------------------------------------
+					One page HTML
+----------------------------------------------------------------*/
+
+/**** HEADER ****/
+#top {
+	border:none;
+	padding:30px 0 21px;
+	left:0;
+	top:0;
+	width:100%!important;
+	z-index:999;
+	text-align:center;
+}
+
+/* Logo */
+#logo {
+	vertical-align:top;
+	display:inline-block;
+	margin-bottom:20px;
+}
+#logo a {
+	background:url(../images/logo.png) no-repeat 0 6px;
+	padding:0 0 0 63px;
+	color:whitesmoke;
+	font-weight:600;
+	font-size:48px;
+	line-height:50px;
+}
+#logo a strong
+{
+    color: #666;
+    font-weight: 400;
+}
+/*Menu*/
+.navmenu {
+	margin:0;
+	padding:0;
+}
+.fixed-menu .navmenu {
+	float:right;
+}
+.navmenu ul {
+    font-size: 0;
+    line-height: 0;
+}
+.navmenu ul li {
+	display: inline-block;
+	vertical-align:top;
+	list-style: none;
+	padding:0;
+    margin: 0 20px 10px;
+}
+.navmenu ul li a {
+	display: inline-block;
+	font-size: 14px;
+	line-height:21px;
+	text-transform:uppercase;
+	padding:5px;
+	text-decoration:none !important;
+	outline:none;
+	background:none;
+}
+.navmenu li a:hover,
+.navmenu li.active a {
+    text-decoration: none;
+	color:#0066CC;
+}
+a.menu_toggler {display:none;
+}
