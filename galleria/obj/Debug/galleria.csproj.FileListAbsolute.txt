@@ -31,3 +31,7 @@ c:\users\rahul\documents\visual studio 2015\Projects\galleria\galleria\bin\Micro
 c:\users\rahul\documents\visual studio 2015\Projects\galleria\galleria\obj\Debug\galleria.csprojResolveAssemblyReference.cache
 c:\users\rahul\documents\visual studio 2015\Projects\galleria\galleria\obj\Debug\galleria.dll
 c:\users\rahul\documents\visual studio 2015\Projects\galleria\galleria\obj\Debug\galleria.pdb
+C:\Users\Rahul\Documents\Visual Studio 2015\Projects\galleria\galleria\bin\EntityFramework.dll
+C:\Users\Rahul\Documents\Visual Studio 2015\Projects\galleria\galleria\bin\EntityFramework.SqlServer.dll
+C:\Users\Rahul\Documents\Visual Studio 2015\Projects\galleria\galleria\bin\EntityFramework.xml
+C:\Users\Rahul\Documents\Visual Studio 2015\Projects\galleria\galleria\bin\EntityFramework.SqlServer.xml

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="GalleriaDatabase" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=ISHWAR;Initial Catalog=GalleriaDatabase;Integrated Security=True;MultipleActiveResultSets=True;Application Name=EntityFramework" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="GalleriaDatabaseConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.GalleriaTable" Member="GalleriaTables">
+    <Type Name="GalleriaTable">
+      <Column Name="UserName" Type="System.String" DbType="VarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Gender" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="batch" Type="System.Decimal" DbType="Decimal(4,0)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

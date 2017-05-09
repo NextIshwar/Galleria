@@ -11,11 +11,10 @@
     <meta name="description" content=""/>
     <meta name="author" content=""/>
     
-   <!-- <link href="css/homePopup.css" rel="stylesheet" type="text/css" />-->
+   
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <style>
-        <style>
 * {box-sizing:border-box}
 body {font-family: Verdana,sans-serif;margin:0;
       background-image:url("Img/34.jpg");
@@ -209,16 +208,12 @@ function showSlides(n) {
 </script>
        
     <header class="fixed-menu"></header>
-    <!-- javascript files-->
+  
     <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
-  <!--  <script type="text/javascript" src="js/sorting.js"></script>-->
- <!--   <script src="js/homePopupLoad.js" type="text/javascript"></script>-->
     <script src="js/homePopup.js" type="text/javascript"></script>
         <script src="js/jquery.backstretch.js"></script>
-   <!--<script type="text/javascript" src="js/plugins.js"></script>-->
+   
     <script type="text/javascript" src="js/current.js"></script>
-   <!-- <script type="text/javascript" src="js/wow.min.js"></script>
-    <!-- animation on scrolling-->
     <script>
         new WOW().init();
     </script>
