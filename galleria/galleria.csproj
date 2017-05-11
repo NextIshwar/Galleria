@@ -113,6 +113,7 @@
     <Content Include="Home.aspx" />
     <Content Include="Img\34.jpg" />
     <Content Include="Img\44.jpg" />
+    <Content Include="Img\avatar.png" />
     <Content Include="Img\clk2.png" />
     <Content Include="Img\colorful.jpg" />
     <Content Include="Img\images.jpg" />
@@ -166,6 +167,7 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="Registration.aspx" />
+    <Content Include="SignIn.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -193,6 +195,13 @@
     </Compile>
     <Compile Include="Registration.aspx.designer.cs">
       <DependentUpon>Registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignIn.aspx.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignIn.aspx.designer.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
