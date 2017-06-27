@@ -13,9 +13,6 @@
     <link href="css/styleReg.css" rel="stylesheet" type="text/css" />
     <link href="css/font-awesomeReg.css" rel="stylesheet" type="text/css" />
     <style>
-
-
-
 .txtBox {
     width: 30%;
     padding: 12px 20px;
@@ -99,6 +96,28 @@ span.psw {
     left: 11.5%;
     top: -22.5%;
 }
+#txtPassword{
+    width:100%;   
+    border-radius: 3px;
+}
+#txtUserName{width: 100%;
+border-radius: 3px;}
+#btn:hover{
+   background-color: orangered;
+}
+.btns{
+    width: 100%;
+}
+#btn{
+     position: relative;
+    top: 0px;
+    left: 23.5%;
+    width:135px;
+}
+#btnSubmit{
+    position: relative;
+    left: 39%;
+}
 </style>
 </head>
 <body>
@@ -109,7 +128,7 @@ span.psw {
             </div>
             <div class="collapse navbar-collapse navbar-menubuilder">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="/">Home</a> </li>
+                    <li><a href="Home.aspx">Home</a> </li>
                     <li><a href="/products">Products</a> </li>
                     <li><a href="/about-us">About Us</a> </li>
                     <li><a href="/contact">Contact Us</a> </li>
@@ -123,17 +142,22 @@ span.psw {
   </div>
 
   <div class="container1" id="loginContainer">
-    <label class="lbl"><b>Username</b></label>
-   <asp:TextBox runat="server" ID="txtUserName" CssClass="txtBox"></asp:TextBox>
-
-    <label class="lbl"><b>Password</b></label>
-    <asp:TextBox TextMode="Password" runat="server" ID="txtPassword" CssClass="txtBox"></asp:TextBox>
-    <input type="checkbox" checked="checked"/> Remember me 
-  <asp:Button runat="server" ID="btnSubmit" CssClass="btns" Text="Submit" OnClick="btnSubmit_Click" />
-   <asp:Button runat="server" ID="btn" Text="Cancel" CssClass="btns" />
-    <span class="psw">Forgot <a href="#">password?</a></span>
-       <span><asp:Label ID="lblError" runat="server"></asp:Label></span>
+      <table>
+          <tr>
+  <td>  <label class="lbl"><b>Username</b></label></td>
+  <td class="td"><asp:TextBox runat="server" ID="txtUserName" CssClass="txtBox"></asp:TextBox></td>
+</tr>
+   <tr><td><label class="lbl"><b>Password</b></label></td>
+  <td class="td">  <asp:TextBox TextMode="Password" runat="server" ID="txtPassword" CssClass="txtBox"></asp:TextBox></td>
+       </tr>
+   <tr><td><input type="checkbox" id="checkRem" checked="checked"/> Remember</td></tr>
+ <tr><td class="tdButton"> <asp:Button runat="server" ID="btnSubmit" CssClass="btns" Text="Submit" OnClick="btnSubmit_Click" /></td>
+ <td class="tdButton"><asp:Button runat="server" ID="btn" Text="Cancel" CssClass="btns" /></td>  </tr>
+ <tr> <td> <span class="psw">Forgot <a href="#">password?</a></span></td></tr>
+ <tr><span><asp:Label ID="lblError" runat="server"></asp:Label></span></tr>     
+          </table>
        </div>
+       
 
  <!-- <div class="container">
     

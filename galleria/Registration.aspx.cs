@@ -28,6 +28,7 @@ namespace galleria
                     tbl.batch = Convert.ToInt16(DropDownList1.SelectedItem.Value.ToString());
                     context.GalleriaTables.InsertOnSubmit(tbl);
                     context.SubmitChanges();
+                    
                 }
             }
         }

@@ -87,6 +87,7 @@ namespace galleria
 		private System.Nullable<decimal> _Gender;
 		
 		private System.Nullable<decimal> _batch;
+        private System.Nullable<int> _image;
 		
     #region Extensibility Method Definitions
     partial void OnLoaded();
@@ -100,6 +101,7 @@ namespace galleria
     partial void OnGenderChanged();
     partial void OnbatchChanging(System.Nullable<decimal> value);
     partial void OnbatchChanged();
+        partial void onImageChanged();
     #endregion
 		
 		public GalleriaTable()
@@ -166,8 +168,27 @@ namespace galleria
 				}
 			}
 		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_batch", DbType="Decimal(4,0)")]
+        /*[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Image", DbType="Image")]
+		public System.Nullable<decimal> Image
+		{
+			get
+			{
+				return this._Image;
+			}
+			set
+			{
+				if ((this._Image != value))
+				{
+					this.OnImageChanging(value);
+					this.SendPropertyChanging();
+					this._Image = value;
+					this.SendPropertyChanged("Image");
+					this.OnImageChanged();
+				}
+			}
+		}
+		*/
+        [global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_batch", DbType="Decimal(4,0)")]
 		public System.Nullable<decimal> batch
 		{
 			get
